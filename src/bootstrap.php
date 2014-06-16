@@ -6,5 +6,3 @@ spl_autoload_register(function($class) {
         require __DIR__ . '/../lib' . strtr($name, '\\', DIRECTORY_SEPARATOR) . '.php';
     }
 });
-
-require __DIR__ . '/../vendor/Auryn/autoload.php';
